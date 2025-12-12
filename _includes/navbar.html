@@ -1,5 +1,8 @@
 <nav>
   <div class="container">
-    <a href="{{ '/' | relative_url }}" class="site-title">{{ site.title | escape }}</a>
+    <a href="{{ '/' | relative_url }}" class="site-title">
+      <img src="{{ '/assets/birdc.png' | relative_url }}" alt="Bird" class="site-logo">
+      {{ site.title | escape }}
+    </a>
   </div>
 </nav>

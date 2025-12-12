@@ -1,1 +1,25 @@
-<!-- Add custom scripts here if needed -->
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var links = document.querySelectorAll('a[href]');
+    var currentDomain = window.location.hostname;
+
+    links.forEach(function (link) {
+      var href = link.getAttribute('href');
+
+      if (!href || href.startsWith('#') || href.startsWith('/')) {
+        return;
+      }
+
+      try {
+        var linkUrl = new URL(href, window.location.origin);
+
+        if (linkUrl.hostname !== currentDomain) {
+          link.setAttribute('target', '_blank');
+          link.setAttribute('rel', 'noopener noreferrer');
+        }
+      } catch (e) {
+        console.error('Invalid URL:', href);
+      }
+    });
+  });
+</script>

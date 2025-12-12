@@ -8,7 +8,8 @@
 :root {
   --primary-color: #333;
   --secondary-color: #666;
-  --accent-color: #0066cc;
+  --accent-color: #d99d25;
+  --button-color: #f5ca41;
   --background-color: #fff;
   --border-color: #ddd;
   --max-width: 800px;
@@ -40,10 +41,21 @@ nav .site-title {
   font-weight: bold;
   color: var(--primary-color);
   text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
 }
 
 nav .site-title:hover {
   color: var(--accent-color);
+}
+
+nav .site-logo {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  vertical-align: middle;
+  object-fit: contain;
 }
 
 /* Typography */
@@ -227,10 +239,11 @@ a:hover {
 
 .post-navigation a {
   padding: 10px 20px;
-  background-color: var(--accent-color);
-  color: white;
+  background-color: var(--button-color);
+  color: black;
   border-radius: 4px;
   text-decoration: none;
+  font-weight: 600;
 }
 
 .post-navigation a:hover {
@@ -260,11 +273,10 @@ footer {
   display: flex;
   justify-content: center;
   gap: 20px;
-  margin-bottom: 20px;
 }
 
 .social-links a {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   color: var(--primary-color);
 }
 

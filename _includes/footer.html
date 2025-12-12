@@ -1,11 +1,11 @@
 <footer>
   <div class="container">
-    <ul class="social-links">
+    <div class="social-links">
       {% if site.github_username %}
       <li><a href="https://github.com/{{ site.github_username }}" title="GitHub">GitHub</a></li>
       {% endif %}
       <li><a href="{{ '/feed.xml' | relative_url }}" title="RSS Feed">RSS</a></li>
-    </ul>
+    </div>
     <p>&copy; {{ 'now' | date: "%Y" }} {{ site.author }}</p>
   </div>
 </footer>
