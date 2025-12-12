@@ -8,10 +8,6 @@ tags: ["jwt", "jwks", "oauth2", "oidc"]
 ---
 
 
-Now I can convert this HTML content to clean Markdown format:
-
----
-
 # JWT - JSON Web Token
 
 Since HTTP is a stateless protocol it requires some kind of handler to manage sessions. For a long time, after a successful authentication the standard container for session handling was a session cookie. Still, it's pretty common to see cookies on various websites and applications. In 2015 Internet Engineering Task Force (IETF) standardized JWT with the RFC 7519 document. The new technology is super useful when it comes to another standard - OpenID Connect, which is turning simple authorization servers with OAuth2 into powerful authorization and identity providers. JWT can be used for both session handling and managing permissions - whichever you need. It also has numerous other advantages.
@@ -186,7 +182,5 @@ and consists of meta-information about algorithm and certificate. A field `n` is
 JWT is a relatively new technology but is widely used by giant companies from all around the globe. This won't make session cookies useless but instead, those two solutions complement each other.
 
 You can see that the authentication and authorization processes nowadays are slightly different and more complex than they used to be. But that complexity comes with new opportunities, improved security, granular privacy and more responsive feeling for end-users. And this is what we want for our clients!
-
----
 
 _This post was originally published on [Ringier Axel Springer Tech Blog](https://tech.ringieraxelspringer.com/blog/programming/show-me-your-keys-oauth-20-and-oidc-with-jwt-and-jwks,17)_
