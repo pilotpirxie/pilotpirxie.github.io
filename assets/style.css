@@ -231,11 +231,12 @@ a:hover {
 /* YouTube Embed */
 .youtube-container {
   position: relative;
-  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  padding-bottom: 56.25%;
+  /* 16:9 aspect ratio */
   height: 0;
-  overflow: hidden;
+  overflow: visible;
   max-width: 100%;
-  margin: 30px 0;
+  margin: 30px 0 38px 0;
 }
 
 .youtube-embed {
@@ -244,6 +245,20 @@ a:hover {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.youtube-link {
+  display: block;
+  margin-top: 8px;
+  font-size: 0.875rem;
+  color: var(--secondary-color);
+  text-align: center;
+  text-decoration: none;
+}
+
+.youtube-link:hover {
+  color: var(--accent-color);
+  text-decoration: underline;
 }
 
 /* Post Navigation */
