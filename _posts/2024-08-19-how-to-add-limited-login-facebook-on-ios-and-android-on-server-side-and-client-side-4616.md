@@ -250,3 +250,5 @@ router.post('/auth/facebook', async (req, res, next) => {
 ```
 
 This implementation provides a quick solution for authenticating users regardless of their chosen login flow. If you require further assistance, please leave a comment, and I will do my best to help :)
+
+_This post was originally published on Dev.to_

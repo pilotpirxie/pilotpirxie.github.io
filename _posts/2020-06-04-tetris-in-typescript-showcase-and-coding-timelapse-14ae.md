@@ -14,3 +14,5 @@ Also, below is the source code of the game for you to analyse or modify.
 
 GitHub (Please star 🌟 the repo to make it more visible to others ;p)
 [View source code on GitHub](https://github.com/pilotpirxie/tetris-ts)
+
+_This post was originally published on Dev.to_

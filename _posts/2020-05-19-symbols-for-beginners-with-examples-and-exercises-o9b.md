@@ -254,3 +254,5 @@ A2. By default an instance of a class returns with toString() ``[object Object]`
 // expected result
 console.log((new Logger()).toString()); // [object Logger]
 ```
+
+_This post was originally published on Dev.to_

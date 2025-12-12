@@ -61,3 +61,5 @@ In MySQL and SQL Server it's very similar.
 
 ### Conclusion
 To sum up, bitwise operations are very useful, widely used in many different aspects of software engineering and technique from this article is just an example of the power behind numbers and optimization tricks, that you can perform.
+
+_This post was originally published on Dev.to_

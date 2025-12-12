@@ -58,3 +58,5 @@ When you finish the test, you will see immediately if you have passed or not. Th
 You can put a certificate badge on your LinkedIn profile with a unique link and identifiers, share it with your coworkers and boss, or print it.
 
 Good luck with the exam! :)
+
+_This post was originally published on Dev.to_

@@ -486,3 +486,5 @@ In summary, there are several advantages to using React hooks in functional comp
 * Better composition: Hooks allow functional components to be composed in a more flexible and powerful way, allowing developers to create custom hooks that combine multiple hooks in a reusable and composable way. This can make it easier to create complex and flexible components, without sacrificing readability and maintainability.
 
 Overall, the use of React hooks in functional components can improve the performance, cleanliness, and reusability of the code, and can make it easier to create complex and flexible components.
+
+_This post was originally published on Dev.to_

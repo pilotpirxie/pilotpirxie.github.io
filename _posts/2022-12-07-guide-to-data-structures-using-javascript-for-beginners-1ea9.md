@@ -316,3 +316,5 @@ A common example of a queue in computer programming is the message queue, which 
 ### Summary
 
 In summary, linked lists, double linked lists, stacks, heaps, and queues are all important data structures in computer science. They provide different ways to store and manipulate data, and they have different strengths and weaknesses. By understanding the characteristics and operations of these data structures, we can choose the right one for the task at hand and write efficient and effective code.
+
+_This post was originally published on Dev.to_

@@ -1236,3 +1236,5 @@ This approach results in enemy AI which is pretty challenging. This is the end o
 
 ⭐ Please star on GitHub if you like this project and want more 😗
 [GitHub](https://github.com/pilotpirxie/vistulans)
+
+_This post was originally published on Dev.to_

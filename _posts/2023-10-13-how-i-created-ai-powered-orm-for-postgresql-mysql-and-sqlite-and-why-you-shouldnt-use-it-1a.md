@@ -230,8 +230,10 @@ Too much thinking, not enough willingness. Published as ormGPT.
 
 That's it. Tiny afternoon project - you shouldn't use it in your production application. Or maybe you should? In the end, you can tell your clients you are using cutting-edge technologies and advanced AI.
 
-You can find the lib on the NPM: https://www.npmjs.com/package/ormgpt
+You can find the lib on the NPM: [OrmGPT](https://www.npmjs.com/package/ormgpt)
 
 or at the GitHub repository:
 
 [View ormGPT on GitHub](https://github.com/pilotpirxie/ormGPT)
+
+_This post was originally published on Dev.to_

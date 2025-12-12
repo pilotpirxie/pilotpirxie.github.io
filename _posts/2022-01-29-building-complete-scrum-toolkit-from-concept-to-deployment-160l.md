@@ -859,3 +859,5 @@ export default class Boards extends BaseEntity {
 ```
 
 TypeORM was a great choice for small API servers to use. And in comparison to Sequelize, it has much clearer syntax and works pretty well with TypeScript.
+
+_This post was originally published on Dev.to_

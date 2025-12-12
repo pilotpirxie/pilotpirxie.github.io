@@ -1224,3 +1224,5 @@ Here it is:
 [![Custom CAPTCHA Demo Video](https://img.youtube.com/vi/T50gYr0khrc/maxresdefault.jpg)](https://www.youtube.com/watch?v=T50gYr0khrc)
 
 Thank you for this long journey. Maybe in the future, we will work on another security solution.
+
+_This post was originally published on Dev.to_

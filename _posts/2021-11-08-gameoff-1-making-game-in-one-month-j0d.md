@@ -50,3 +50,5 @@ Here are the final results:
 
 The complete code repository is available here:
 [View the project on GitHub](https://github.com/pilotpirxie/die-bug)
+
+_This post was originally published on Dev.to_

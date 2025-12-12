@@ -68,3 +68,5 @@ Also, if you don't want to rely on auto-mode you can print the timeline in JSON 
 Going back to the story. It still took some time but at least I was more certain about the process and had a linear plan of work. After all, I wrote a document to describe the process so other team members knew what's going on with the repository and we discussed the process. Deployment went smoothly with only a few minor issues in the meantime because most of the problems were spotted early thanks to the willing help from team members.
 
 Dependency management can be painful, but done regularly and with patience makes our future work easier. I hope someone finds this article and tool useful :)
+
+_This post was originally published on Dev.to_

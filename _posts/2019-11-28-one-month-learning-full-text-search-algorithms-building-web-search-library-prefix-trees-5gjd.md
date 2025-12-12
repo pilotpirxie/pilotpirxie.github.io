@@ -70,3 +70,5 @@ After creating Trie, Node, and other classes for the library, I created a small 
 To sum up, I really recommend trying to create a library like this to better understand what is going on under the hood in web search engines when we type the next letter.
 
 If you like the article, want to try it on your own, do some modifications, or check how it's implemented, you can download the source code from GitHub: https://github.com/pilotpirxie/coresearch
+
+_This post was originally published on Dev.to_
