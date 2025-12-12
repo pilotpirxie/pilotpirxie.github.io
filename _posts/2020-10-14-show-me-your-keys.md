@@ -36,11 +36,11 @@ This process is the longest of all we're looking into, and since you are still u
 
 The entire flow with OAuth 2.0 and OpenID Connect looks like this:
 
-![Initial request | source: Ringier Axel Springer Tech](/img/posts/initial-request.webp)
+![Initial request | source: Ringier Axel Springer Tech](/img/posts/initial-request.png)
 
-![Usage of access token | source: Ringier Axel Springer Tech](/img/posts/usage-of-access-token.webp)
+![Usage of access token | source: Ringier Axel Springer Tech](/img/posts/usage-of-access-token.png)
 
-![Refresh request | source: Ringier Axel Springer Tech](/img/posts/refresh-request.webp)
+![Refresh request | source: Ringier Axel Springer Tech](/img/posts/refresh-request.png)
 
 In the above flow:
 

@@ -25,7 +25,7 @@ This structure is called a Prefix Tree, because consecutive parts of each word a
 
 The Trie data structure may sound and looks strange at first glance, however, there are only a few rules which describes this structure. The Trie is recursively defined by the following rule:
 
-![Trie Math Model | source: Ringier Axel Springer Tech](/img/posts/trie-math-model.webp)
+![Trie Math Model | source: Ringier Axel Springer Tech](/img/posts/trie-math-model.png)
 
 - **Σ** is a fixed alphabet with r characters. Sigma comes from formal language theory. It contains atomic data (symbols), which describe words.
 - **W** is a finite subset of words made of characters from an infinite set of words over Σ (Σ*). A single entry in W is a string made from symbols.
@@ -104,7 +104,7 @@ A non-compressed Trie with two words "Alan, Alice" pointing to the same resource
 
 `~->a->l->{a->n, i->c->e}`
 
-![Prefix Tree Diagram | source: Ringier Axel Springer Tech](/img/posts/prefix-tree.webp)
+![Prefix Tree Diagram | source: Ringier Axel Springer Tech](/img/posts/prefix-tree.png)
 
 As you can see, with the structure like this, we can simply traverse down with just partial information. Let's say we are looking for resources which contain "a" in the key. To find them we can simply traverse to the last known atomic node, and extract data recursively down from every connected node. The time of searching, insertion and deleting from a Trie is O(*a\*n*). It depends on the length of the word (*a*), and total number of the words in the structure (*n*).
 
@@ -114,7 +114,7 @@ In the previous paragraph, I mentioned the term: "non-compressed". This means a 
 
 `~->al->{an,ice}`
 
-![Radix Tree Diagram | source: Ringier Axel Springer Tech](/img/posts/radix-tree.webp)
+![Radix Tree Diagram | source: Ringier Axel Springer Tech](/img/posts/radix-tree.png)
 
 4 nodes (1 root, 3 atomic) instead of 8! Reducing half of the size means a lot of saved memory, a possibility to index more data and finally, less expensive maintenance.
 
@@ -122,7 +122,7 @@ In the previous paragraph, I mentioned the term: "non-compressed". This means a 
 
 Maybe you had a chance to work with tools like Apache Lucene or Redis. They are good examples of the phenomenon I'm about to introduce. Both, in some cases, use a Radix Tree to store information (based on the source of Rax library). Some, for instance, use Radix Tree with a radix equal to 2. It means that Redis stores information in binary, to minimize sparseness. This type of Radix Tree is called PATRICIA Tree, and it was described for the first time in 1968. Every node in PATRICIA Tree contains only two subtrees. Because data is stored in binary, you can easily insert almost everything to the database, not only lexical data.
 
-![PATRICIA Tree Diagram | source: Ringier Axel Springer Tech](/img/posts/patricia-tree.webp)
+![PATRICIA Tree Diagram | source: Ringier Axel Springer Tech](/img/posts/patricia-tree.png)
 
 This diagram may look similar to the previous one, with a visualized Radix Tree. However, if you look closer, you will notice that the first node contains more common data. Radix Tree in first children of the root contains (assuming 8 bit extended ASCII encoding) 2 characters × 1 Byte × 8 = 16 bits. PATRICIA Tree contains 20 common bits from the beginning.
 
