@@ -769,8 +769,7 @@ Even better with a procedural map generator and new UI which I am going to expla
 
 Totally I had made over 30 models, and each one I uploaded to Sketchfab with **creative commons licence & free download**. If you are looking for models for your future game, maybe you will be interested: https://sketchfab.com/lightguard/collections/ancient-game
 
-⭐ Please star on GitHub if you like this project and want more 😗
-[GitHub](https://github.com/pilotpirxie/vistulans)
+
 
 ## Days 16-28: Core Gameplay & Map Generation
 
@@ -860,9 +859,6 @@ After creating world generation and 3D stuff I moved to 2D assets. I created vec
 ![Tutorial](/img/posts/vistulans-game-dev-diary-days-16-28-gameplay-core-mla-3-2800b0.png)
 ![Pause menu](/img/posts/vistulans-game-dev-diary-days-16-28-gameplay-core-mla-4-0b23ec.png)
 ![Gameplay UI](/img/posts/vistulans-game-dev-diary-days-16-28-gameplay-core-mla-5-4977c0.png)
-
-⭐ Please star on GitHub if you like this project and want more 😗
-[GitHub](https://github.com/pilotpirxie/vistulans)
 
 ## Days 29-36: Enemy AI & Final Polish
 
@@ -1234,7 +1230,6 @@ Similarly, I made enemy upgrades. I am calculating the total increase of honey w
 
 This approach results in enemy AI which is pretty challenging. This is the end of the Vistulans development diary. Thanks for being with me for so long 😘 The game is playable in browser: [Play Vistulans](https://smietanek.itch.io/vistulans)
 
-⭐ Please star on GitHub if you like this project and want more 😗
-[GitHub](https://github.com/pilotpirxie/vistulans)
+
 
 _This post was originally published on Dev.to_
