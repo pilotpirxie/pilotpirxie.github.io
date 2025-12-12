@@ -2,7 +2,7 @@
 layout: post
 title: "Symbols in JavaScript for Beginners with Examples and Exercises"
 subtitle: "In this post, I am going to explain what a Symbol in JavaScript is, when and how to use it. At the end of the post are a few exercises."
-author: "Meat Boy"
+author: "pilotpirxie"
 date: 2020-05-19T00:06:05.000Z
 tags: ["javascript", "tutorial", "webdev"]
 background: '/img/posts/symbols-for-beginners-with-examples-and-exercises-o9b-cover.png'
@@ -10,7 +10,10 @@ background: '/img/posts/symbols-for-beginners-with-examples-and-exercises-o9b-co
 In this post, I am going to explain what a Symbol in JavaScript is, when and how to use it. At the end of the post are a few exercises. You can check yourself and post solutions in the comments. I'll code review the first few answers 😉
 
 So, let's learn something new!
-![Learning](/img/posts/symbols-for-beginners-with-examples-and-exercises-o9b-1-895b19.gif)
+<figure>
+  <img src="/img/posts/symbols-for-beginners-with-examples-and-exercises-o9b-1-895b19.gif" alt="Learning">
+  <figcaption>Source Giphy</figcaption>
+</figure>
 
 ### What is a Symbol?
 Symbols are a new primitive data type, introduced with ECMAScript 6. Every symbol created with the basic constructor is unique.
@@ -59,7 +62,10 @@ console.log(`${Symbol()}`); // TypeError: Can't convert Symbol to string
 Symbols are commonly used for hiding direct access to properties in objects. With a Symbol, you can create a semi-private field.
 
 Properties are hidden like the Pink Panther ;) They exist, you can retrieve them with some effort but at first glance you cannot see them or get them!
-![Hide](/img/posts/symbols-for-beginners-with-examples-and-exercises-o9b-2-f90fdb.gif)
+<figure>
+  <img src="/img/posts/symbols-for-beginners-with-examples-and-exercises-o9b-2-f90fdb.gif" alt="Hide">
+  <figcaption>Source Giphy</figcaption>
+</figure>
 
 ```js
 const tree = {
@@ -165,7 +171,10 @@ for (let num of tab) {
 // 4
 ```
 
-![Roman numeral](/img/posts/symbols-for-beginners-with-examples-and-exercises-o9b-3-40f77f.gif)
+<figure>
+  <img src="/img/posts/symbols-for-beginners-with-examples-and-exercises-o9b-3-40f77f.gif" alt="Roman numeral">
+  <figcaption>Source Giphy</figcaption>
+</figure>
 
 But what if we want to return all numbers **but in Roman numerals** and without changing the for...of loop? We can use Symbol.iterator and **override** the function responsible for returning values.
 
@@ -227,7 +236,10 @@ Other well-known symbols:
 * toStringTag,
 
 That's all about the Symbols! Now time to practice ;)
-![Homework](/img/posts/symbols-for-beginners-with-examples-and-exercises-o9b-4-ef889d.gif)
+<figure>
+  <img src="/img/posts/symbols-for-beginners-with-examples-and-exercises-o9b-4-ef889d.gif" alt="Homework">
+  <figcaption>Source Giphy</figcaption>
+</figure>
 
 A1. Create a custom logger function, which as one of its parameters accepts one of the enum values and data to log. If an invalid value is passed, throw an error.
 ```js
@@ -242,5 +254,3 @@ A2. By default an instance of a class returns with toString() ``[object Object]`
 // expected result
 console.log((new Logger()).toString()); // [object Logger]
 ```
-Want more knowledge and exercises? Follow me on Dev.to and stay tuned!
-[Follow me on Dev.to](https://dev.to/meatboy)

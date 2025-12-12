@@ -2,7 +2,7 @@
 layout: post
 title: "How to store multiple boolean values in a compressed way with a single integer"
 subtitle: "Hey everyone, in this short tutorial I am going to show how to store multiple boolean (true/false) va..."
-author: "Meat Boy"
+author: "pilotpirxie"
 date: 2020-01-02T00:34:07.000Z
 tags: ["tutorial", "algorithms", "data", "structure"]
 background: '/img/posts/how-to-store-multiple-boolean-values-in-a-compressed-way-with-a-single-integer-1eb4-cover.jpg'

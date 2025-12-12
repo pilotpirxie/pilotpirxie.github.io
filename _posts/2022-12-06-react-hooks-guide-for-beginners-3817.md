@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "React Hooks - Definitive Guide for Beginners"
+title: "React Hooks - Guide for Beginners"
 subtitle: "React hooks are a new feature introduced in React 16.8 that allows developers to use state and other..."
-author: "Meat Boy"
+author: "pilotpirxie"
 date: 2022-12-06T14:35:42.000Z
 tags: ["javascript", "react", "webdev", "beginners"]
 ---

@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Definitive Guide to Data Structures Using JavaScript for Beginners"
+title: "Guide to Data Structures Using JavaScript for Beginners"
 subtitle: "Data structures are an essential part of computer science, as they provide the means to efficiently organise and store data"
-author: "Meat Boy"
+author: "pilotpirxie"
 date: 2022-12-07T10:13:53.000Z
 tags: ["javascript", "data-structures", "programming"]
 background: '/img/posts/definitive-guide-to-data-structures-using-javascript-for-beginners-1ea9-cover.png'

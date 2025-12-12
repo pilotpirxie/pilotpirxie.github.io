@@ -2,7 +2,7 @@
 layout: post
 title: "Building a Complete Scrum Toolkit: From Concept to Deployment"
 subtitle: "A comprehensive guide to creating a unified tool for scrum masters with React, TypeScript, Node.js, and WebSockets"
-author: "Meat Boy"
+author: "pilotpirxie"
 date: 2022-01-29T15:45:53.000Z
 tags: ["javascript", "typescript", "react", "nodejs", "websockets", "typeorm", "webdev", "devjournal"]
 background: '/img/posts/writing-unified-tool-for-scrum-masters-1-the-good-the-bad-and-the-ugly-160l-cover.png'

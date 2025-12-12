@@ -2,7 +2,7 @@
 layout: post
 title: "Building a Recommendation System: From Redis Hackathon to Production"
 subtitle: "A complete journey through designing, implementing, and deploying a content-based recommendation engine using Redis and Node.js"
-author: "Meat Boy"
+author: "pilotpirxie"
 date: 2022-08-05T15:14:00.000Z
 tags: ["webdev", "javascript", "node", "typescript", "redis", "algorithms", "recommendation-system", "hackathon"]
 background: '/img/posts/writing-recommendation-system-0-2lhh-cover.png'

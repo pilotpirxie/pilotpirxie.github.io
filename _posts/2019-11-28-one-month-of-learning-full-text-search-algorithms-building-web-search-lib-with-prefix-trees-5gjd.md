@@ -2,7 +2,7 @@
 layout: post
 title: "One Month of Learning Full-Text Search Algorithms - Building a Web Search Library with Prefix Trees"
 subtitle: "Most developers have side projects. And I have my own too. About one month ago I started..."
-author: "Meat Boy"
+author: "pilotpirxie"
 date: 2019-11-28T16:37:11.000Z
 tags: ["algorithms", "csharp", "career", "githunt"]
 ---

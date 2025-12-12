@@ -2,7 +2,7 @@
 layout: post
 title: "How to update a several-year-old outdated project in Node and React"
 subtitle: "Navigating old Node.js dependencies can be confusing. In this article, I'll share how I decoded this..."
-author: "Meat Boy"
+author: "pilotpirxie"
 date: 2023-08-24T08:40:06.000Z
 tags: ["webdev", "javascript", "tutorial", "react"]
 background: '/img/posts/how-to-update-a-few-years-old-outdated-project-in-node-and-react-31jm-cover.png'
@@ -18,7 +18,10 @@ Navigating old Node.js dependencies can be confusing. In this article, I'll shar
 
 ### Outdated codebase
 
-![GTA SA](/img/posts/how-to-update-a-few-years-old-outdated-project-in-node-and-react-31jm-1-f0fe7a.gif)
+<figure>
+  <img src="/img/posts/how-to-update-a-few-years-old-outdated-project-in-node-and-react-31jm-1-f0fe7a.gif" alt="GTA SA">
+  <figcaption>Source Giphy</figcaption>
+</figure>
 
 I recently joined a new team with a great product but a highly outdated codebase. So my first task was to update dependencies and make changes so we could migrate from Node 16 to Node 18 and finally to Node 20. Some parts of the code were still relying on Node 14. The initial thought was to use ``ncu`` or ``yarn upgrade-interactive`` and update all patch versions since they shouldn't break anything if package developers were following semantic versioning. But they didn't.
 

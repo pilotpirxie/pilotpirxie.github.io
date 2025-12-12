@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tetris in TypeScript - Speed Coding"
-author: "Meat Boy"
+author: "pilotpirxie"
 date: 2020-06-04T10:55:10.000Z
 tags: ["showdev", "game", "typescript", "javascript"]
 background: '/img/posts/tetris-in-typescript-showcase-and-coding-timelapse-14ae-cover.png'

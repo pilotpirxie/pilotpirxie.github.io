@@ -2,7 +2,7 @@
 layout: post
 title: "GameOff 2021 - Making a Game in One Month"
 subtitle: "How our team created Die Bug, a Christmas mech soldier game, during the GitHub GameOff jam"
-author: "Meat Boy"
+author: "pilotpirxie"
 date: 2021-12-03T22:47:25.000Z
 tags: ["unity3d", "gamedev", "devjournal", "jam", "github"]
 ---

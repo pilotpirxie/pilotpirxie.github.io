@@ -2,7 +2,7 @@
 layout: post
 title: "Create your own CAPTCHA - Complete Tutorial"
 subtitle: "A comprehensive guide to building a custom CAPTCHA system with TypeScript, React, Node.js, and PIXI.js"
-author: "Meat Boy"
+author: "pilotpirxie"
 date: 2020-04-30T12:11:51.000Z
 tags: ["react", "javascript", "typescript", "security", "node", "tutorial"]
 background: '/img/posts/create-your-own-captcha-with-react-node-part-1-architecture-1ho7-cover.png'
@@ -14,7 +14,10 @@ About a year ago in my work, I had the chance to spend a great time on something
 
 I worked with one of my teammates with strong knowledge of various topics (Przemo it's about you) so we decided to work on something unusual. My team manages authentication in multiple services in a few EU countries (Switzerland, Germany, Poland, Belgium), we have about 100 million authentication requests per month and we are still working on improving the security of our systems. So we decided to prepare a simple CAPTCHA mechanism based on canvas and proof-of-work mechanism with leading zeros like in hashcash.
 
-![The It Crowds](/img/posts/create-your-own-captcha-with-react-node-part-1-architecture-1ho7-1-3980f9.gif)
+<figure>
+  <img src="/img/posts/create-your-own-captcha-with-react-node-part-1-architecture-1ho7-1-3980f9.gif" alt="The It Crowds">
+  <figcaption>Source Giphy</figcaption>
+</figure>
 
 Our mechanism, even if not perfect, works. So it was ready to polish, refactor and work further after the event. From this day I saw a few other implementations of CAPTCHA similar to what we did. And in this comprehensive tutorial, I decided to show how you can create your own CAPTCHA with TypeScript and JavaScript, Node and React stack. You don't need to be an expert in any of these technologies because I'll explain everything for beginners.
 
@@ -621,7 +624,10 @@ export class App extends React.Component<any, IApp> {
 
 You should be able to drag the puzzle over the canvas and click on the submit button and small text on the bottom of the canvas.
 
-![You did it](/img/posts/create-your-own-captcha-part-3-canvas-13i8-2-ae5f04.gif)
+<figure>
+  <img src="/img/posts/create-your-own-captcha-part-3-canvas-13i8-2-ae5f04.gif" alt="You did it">
+  <figcaption>Source Giphy</figcaption>
+</figure>
 
 ## Part 3: Server-Side Implementation with Node.js
 
@@ -1198,7 +1204,10 @@ To make loading of this CAPTCHA we can add fade-out effect:
 
 Uff. And this is how we create our fast, responsive CAPTCHA mechanism! 🥳 You can use it now to secure your website, forum or blog. To make it even more secure you can change some parts of the algorithm, so it will be unique and tailored for your site.
 
-![You did it!](/img/posts/create-your-own-captcha-part-4-algorithm-node-typescript-react-53j3-2-5cd233.gif)
+<figure>
+  <img src="/img/posts/create-your-own-captcha-part-4-algorithm-node-typescript-react-53j3-2-5cd233.gif" alt="You did it!">
+  <figcaption>Source Giphy</figcaption>
+</figure>
 
 Full source code you can find at GitHub.
 
@@ -1206,9 +1215,7 @@ Full source code you can find at GitHub.
 
 ## Video Demo
 
-After a long time of working on custom CAPTCHA, I made it and I used it to pass one of the subjects on studies. From the entire journey, I made a tutorial here, on Dev.to.
-
-[Create your own CAPTCHA - Complete Tutorial](https://dev.to/meatboy/create-your-own-captcha-with-react-node-part-1-architecture-1ho7)
+After a long time of working on custom CAPTCHA, I made it and I used it to pass one of the subjects on studies. 
 
 CAPTCHA is made with TypeScript, React, PIXI and Node. CAPTCHA relies on a server-side mechanism for generating and verification challenge.
 
@@ -1216,6 +1223,4 @@ Here it is:
 
 [![Custom CAPTCHA Demo Video](https://img.youtube.com/vi/T50gYr0khrc/maxresdefault.jpg)](https://www.youtube.com/watch?v=T50gYr0khrc)
 
-Thank you for this long journey. Maybe in the future, we will work on another security solution. If you want to see more tutorials like this follow me on DEV.to and star repo on GitHub. Have a nice day and see you soon! 😉
-
-[@meatboy](https://dev.to/meatboy)
+Thank you for this long journey. Maybe in the future, we will work on another security solution.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How I created AI-powered ORM for PostgreSQL, MySQL and SQLite and why you shouldn't use it"
-author: "Meat Boy"
+author: "pilotpirxie"
 date: 2023-10-13T10:54:19.000Z
 tags: ["webdev", "programming", "ai", "javascript"]
 background: '/img/posts/how-i-created-ai-powered-orm-for-postgresql-mysql-and-sqlite-and-why-you-shouldnt-use-it-1a-cover.jpeg'
@@ -19,7 +19,10 @@ At this point, I think ORMs have become the new JavaScript frameworks but for th
 
 Another hot topic, wider than just the JavaScript ecosystem, is AI. An entire group of algorithms to recognise patterns, predict output, and generate things. Now tech startups not only must store data in hot blockchain, NoSQL, or vector databases, but compute on edge using quantum technology. Must also be AI - artificially intelligent.  
 
-![AI](/img/posts/how-i-created-ai-powered-orm-for-postgresql-mysql-and-sqlite-and-why-you-shouldnt-use-it-1a-1-cb4342.gif)
+<figure>
+  <img src="/img/posts/how-i-created-ai-powered-orm-for-postgresql-mysql-and-sqlite-and-why-you-shouldnt-use-it-1a-1-cb4342.gif" alt="AI">
+  <figcaption>Source Giphy</figcaption>
+</figure>
 
 ### Afternoon idea
 My idea was, what if I create a hot, new lib to access data like ORMs or query builders but using AI? So anyone can access data using plain language like:
@@ -106,7 +109,10 @@ The method for calling OpenAI was pretty simple and used built-in fetch:
 
 I know OpenAI also has an SDK library, but I prefer simple calls instead of another dependency since it's hard to manage them in the long term. The API allows direct access to the resource; the SDK package would have to be updated separately and eventually could be abandoned.
 
-![pkg](/img/posts/how-i-created-ai-powered-orm-for-postgresql-mysql-and-sqlite-and-why-you-shouldnt-use-it-1a-2-679e98.gif)
+<figure>
+  <img src="/img/posts/how-i-created-ai-powered-orm-for-postgresql-mysql-and-sqlite-and-why-you-shouldnt-use-it-1a-2-679e98.gif" alt="pkg">
+  <figcaption>Source Giphy</figcaption>
+</figure>
 
 For the database engine, I chose to support PostgreSQL, MySQL, and SQLite out of the box. They are the most popular and I had worked with all of them successfully before. The first was SQLite, which allowed me to experiment with different adapter interfaces. With such an interface, anyone can create their own adapter for other engines like Oracle, ClickHouse, or CouchDB. I decided to stick with the smallest possible set of methods in the interface, leaving other responsibilities, such as executing queries, to native clients:
 
@@ -199,7 +205,10 @@ and the response after execution from the database:
 
 It's kind of hard to test such an app because it's non-deterministic. The only way I could think of was to test short, precise statements like "create x with y and z" and then check the database to see if it's there. 
 
-![Db](/img/posts/how-i-created-ai-powered-orm-for-postgresql-mysql-and-sqlite-and-why-you-shouldnt-use-it-1a-3-2e262d.gif)
+<figure>
+  <img src="/img/posts/how-i-created-ai-powered-orm-for-postgresql-mysql-and-sqlite-and-why-you-shouldnt-use-it-1a-3-2e262d.gif" alt="Db">
+  <figcaption>Source Giphy</figcaption>
+</figure>
 
 ### Conclusion
 Here we come to the conclusion of why this library is useless for now. If you're looking for something more complex like joins, nested subqueries, or engine-related queries, with the current state of GPT it's not possible to get results you can rely on. However, at least you can minimise randomness by being very strict about the requirements in your statement and decreasing "temperature" as low as 0 for deterministic results!
