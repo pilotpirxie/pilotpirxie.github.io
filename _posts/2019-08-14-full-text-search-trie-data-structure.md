@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Full-Text-Search - Trie Data Structures Demystified"
-subtitle: 'What makes Full-Text Search engines so efficient? In this article, we are going to look closer at the Trie and derivative data structures.'
+subtitle: 'What makes Full-Text Search engines so efficient? In this article, we are going to look closer at the Trie and derivative data structures'
 author: "pilotpirxie"
 date: 2019-08-14T00:00:00.000Z
 tags: ["data", "structure", "algorithm", "trie"]

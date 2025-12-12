@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Show Me Your Keys - OAuth 2.0 & OIDC with JWT & JWKS"
-subtitle: 'In this short article we are going to look into different approaches to authentication, authorization and finish with a quick JWT overview.'
+subtitle: 'In this short article we are going to look into different approaches to authentication, authorization and finish with a quick JWT overview'
 author: "pilotpirxie"
 date: 2020-10-14T00:00:00.000Z
 tags: ["jwt", "jwks", "oauth2", "oidc"]

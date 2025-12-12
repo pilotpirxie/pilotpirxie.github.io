@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Vistulans - Complete Game Development Journey"
-subtitle: "A comprehensive overview of developing Vistulans, a Slavic mythology-inspired strategy game built with Unity"
+subtitle: "An overview of developing Vistulans, a Slavic mythology-inspired strategy game built with Unity"
 author: "pilotpirxie"
 date: 2019-12-12T07:51:26.000Z
 tags: ["showdev", "gamedev", "csharp", "unity3d"]

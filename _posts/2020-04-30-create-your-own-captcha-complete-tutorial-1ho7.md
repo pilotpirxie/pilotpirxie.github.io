@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Create your own CAPTCHA - Complete Tutorial"
-subtitle: "A comprehensive guide to building a custom CAPTCHA system with TypeScript, React, Node.js, and PIXI.js"
+subtitle: "A guide to building a custom CAPTCHA system with TypeScript, React, Node.js, and PIXI.js"
 author: "pilotpirxie"
 date: 2020-04-30T12:11:51.000Z
 tags: ["react", "javascript", "typescript", "security", "node", "tutorial"]

@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "How I created AI-powered ORM for PostgreSQL, MySQL and SQLite and why you shouldn't use it"
+title: "How I created AI-powered ORM for PostgreSQL, MySQL and SQLite"
+subtitle: "And why you shouldn't use it"
 author: "pilotpirxie"
 date: 2023-10-13T10:54:19.000Z
 tags: ["webdev", "programming", "ai", "javascript"]

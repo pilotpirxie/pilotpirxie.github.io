@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to update a several-year-old outdated project in Node and React"
-subtitle: "Navigating old Node.js dependencies can be confusing. In this article, I'll share how I decoded this..."
+subtitle: "Tutorial and my library to speed up the chore work"
 author: "pilotpirxie"
 date: 2023-08-24T08:40:06.000Z
 tags: ["webdev", "javascript", "tutorial", "react"]

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to Pass AWS Certified Developer Associate Exam"
-subtitle: "About two weeks ago, after 4 months of preparation, I passed my AWS Certified Developer Associate (DV..."
+subtitle: "About two weeks ago, after 4 months of preparation, I passed my AWS Certified Developer Associate (DVA-C01)"
 author: "pilotpirxie"
 date: 2019-11-13T22:54:23.000Z
 tags: ["aws", "cloud", "career", "tutorial"]
