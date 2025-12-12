@@ -38,11 +38,21 @@ Frequently Asked Questions is a section on the AWS official website which should
 
 ### AWS re:Invent Videos
 Every year AWS has its own conference for tech enthusiasts. The event is full of breakout sessions led by experienced AWS mentors. Videos from their public speaking are uploaded to YouTube. Some of the notable videos:
-EC2 Best Practices https://www.youtube.com/watch?v=W0PKclqP3U0
-ELB Best Practices https://www.youtube.com/watch?v=VIgAT7vjol8
-S3 Security & Management https://www.youtube.com/watch?v=VvMCVFnLKnQ
-DynamoDB Deep Dive https://www.youtube.com/watch?v=HaEPXoXVf2k
-DynamoDB Performance Tricks https://www.youtube.com/watch?v=hwnNbLXN4vA
+
+**EC2 Best Practices**
+{% include youtube.html id="W0PKclqP3U0" %}
+
+**ELB Best Practices**
+{% include youtube.html id="VIgAT7vjol8" %}
+
+**S3 Security & Management**
+{% include youtube.html id="VvMCVFnLKnQ" %}
+
+**DynamoDB Deep Dive**
+{% include youtube.html id="HaEPXoXVf2k" %}
+
+**DynamoDB Performance Tricks**
+{% include youtube.html id="hwnNbLXN4vA" %}
 
 ### AWS Learning Library
 Official library with short courses, great for organising knowledge. Especially ones like "Exam Readiness: AWS Certified Developer – Associate (Digital)", which show what you should know before taking an exam and what the exam will look like.

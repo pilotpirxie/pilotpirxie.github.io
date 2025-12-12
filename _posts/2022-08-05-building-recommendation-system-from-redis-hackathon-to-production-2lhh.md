@@ -103,7 +103,7 @@ The system uses tag scores and the Jaccard index for content-based filtering. It
 ### Demo
 Here's a demo of film recommendations with 10,000 videos:
 
-[Watch the recommendation system demo on YouTube](https://www.youtube.com/watch?v=_m1BandnVsQ)
+{% include youtube.html id="_m1BandnVsQ" %}
 
 ### Source Code
 [View source code on GitHub](https://github.com/pilotpirxie/recommendation)

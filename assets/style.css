@@ -228,6 +228,24 @@ a:hover {
   font-style: italic;
 }
 
+/* YouTube Embed */
+.youtube-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  margin: 30px 0;
+}
+
+.youtube-embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 /* Post Navigation */
 .post-navigation {
   display: flex;

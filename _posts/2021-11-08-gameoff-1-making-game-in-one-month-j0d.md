@@ -21,7 +21,7 @@ Within the first few days, we had created models for our first two enemies - an 
 
 You can see our early progress here:
 
-[Watch early development progress on YouTube](https://www.youtube.com/watch?v=5Jc0otO8s1I)
+{% include youtube.html id="5Jc0otO8s1I" %}
 
 And here's our repository where you can follow along:
 
@@ -33,20 +33,21 @@ A few days later, we added new music and sound effects for weapons, making the g
 
 Our next focus was on creating the initial arena and adding a proper mesh for the character. Here's how the game looked at that stage:
 
-[Watch the game with new music and weapons on YouTube](https://www.youtube.com/watch?v=7okCPIrp_N4)
+{% include youtube.html id="7okCPIrp_N4" %}
 
 ## Total Destruction
 
 In the following weeks, we added so much more to the game! Visual effects were implemented, character animations were improved, new monsters were added, and we made significant map tweaks. To add some festive chaos, we introduced Santa Claus flying over the map, throwing gifts containing weapons to players.
 
-[Watch the game with visual effects and new monsters on YouTube](https://www.youtube.com/watch?v=duNGQwla650)
+{% include youtube.html id="duNGQwla650" %}
 
 ## The Final Result
 
 After one month of after-hours development, we completed our game for the GameOff 2021 jam organised by Microsoft and GitHub. It was an incredible learning experience and a testament to what a small team can achieve with dedication and the right tools.
 
 Here are the final results:
-[Watch the final game on YouTube](https://www.youtube.com/watch?v=gmboSkO28F4)
+
+{% include youtube.html id="gmboSkO28F4" %}
 
 The complete code repository is available here:
 [View the project on GitHub](https://github.com/pilotpirxie/die-bug)

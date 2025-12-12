@@ -9,7 +9,7 @@ background: '/img/posts/tetris-in-typescript-showcase-and-coding-timelapse-14ae-
 ---
 Hey! Yesterday I wrote a Tetris game in TypeScript in 5 hours. I recorded the entire process, so you can watch it in a timelapse video :)
 
-[Watch the timelapse video on YouTube](https://www.youtube.com/watch?v=tZmbPq3OMOE)
+{% include youtube.html id="tZmbPq3OMOE" %}
 
 Also, below is the source code of the game for you to analyse or modify.
 

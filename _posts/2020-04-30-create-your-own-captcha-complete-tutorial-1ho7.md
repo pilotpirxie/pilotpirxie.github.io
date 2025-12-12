@@ -1221,7 +1221,7 @@ CAPTCHA is made with TypeScript, React, PIXI and Node. CAPTCHA relies on a serve
 
 Here it is:
 
-[![Custom CAPTCHA Demo Video](https://img.youtube.com/vi/T50gYr0khrc/maxresdefault.jpg)](https://www.youtube.com/watch?v=T50gYr0khrc)
+{% include youtube.html id="T50gYr0khrc" %}
 
 Thank you for this long journey. Maybe in the future, we will work on another security solution.
 
