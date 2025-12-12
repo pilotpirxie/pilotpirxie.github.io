@@ -128,8 +128,6 @@ This diagram may look similar to the previous one, with a visualized Radix Tree.
 
 To sum up, you can see, the modern problem of the overwhelming amount of information can be addressed with modern solutions. Tree data structures are very common and aren't as complicated as they may look like. Stay tuned if you want to know more - additional blog posts are coming soon.
 
----
-
 **Useful resources & references:**
 
 - [https://www.forbes.com/sites/gilpress/2020/01/06/6-predictions-about-data-in-2020-and-the-coming-decade/](https://www.forbes.com/sites/gilpress/2020/01/06/6-predictions-about-data-in-2020-and-the-coming-decade/#7391347f4fc3)
@@ -138,7 +136,5 @@ To sum up, you can see, the modern problem of the overwhelming amount of informa
 - [https://www.techiedelight.com/trie-implementation-insert-search-delete/](https://www.techiedelight.com/trie-implementation-insert-search-delete/)
 - [https://brilliant.org/wiki/tries](https://brilliant.org/wiki/tries)
 - [https://github.com/antirez/rax](https://github.com/antirez/rax)
-
----
 
 _This post was originally published on [Ringier Axel Springer Tech Blog](https://tech.ringieraxelspringer.com/blog/programming/full-text-search-trie-data-structures-demystified,28)_
