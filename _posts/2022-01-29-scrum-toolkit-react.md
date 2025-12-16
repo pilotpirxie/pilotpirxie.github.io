@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Building a Complete Scrum Toolkit: From Concept to Deployment"
-subtitle: "A comprehensive guide to creating a unified tool for scrum masters with React, TypeScript, Node.js, and WebSockets"
+title: "Building a Complete Scrum Toolkit"
+subtitle: "React, TypeScript, WebSockets, and way too much caffeine"
 author: "pilotpirxie"
 date: 2022-01-29T15:45:53.000Z
 tags: ["javascript", "typescript", "react", "nodejs", "websockets", "typeorm", "webdev", "devjournal"]

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "How to store multiple boolean values in a compressed way with a single integer"
-subtitle: "Store boolean in a compressed way"
+title: "Storing Booleans in a compressed way"
+subtitle: "Compress multiple flags into one integer"
 author: "pilotpirxie"
 date: 2020-01-02T00:34:07.000Z
 tags: ["tutorial", "algorithms", "data", "structure"]

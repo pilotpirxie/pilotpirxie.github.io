@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to add Limited Login Facebook on iOS and Android on server-side and client-side"
+title: "Limited Login Facebook on iOS and Android on server-side and client-side"
 subtitle: "Guide to implementing both standard and limited login flows"
 author: "pilotpirxie"
 date: 2024-08-19T19:54:57.000Z

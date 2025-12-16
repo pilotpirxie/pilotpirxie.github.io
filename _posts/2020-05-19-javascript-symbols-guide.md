@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Symbols in JavaScript for Beginners with Examples and Exercises"
-subtitle: "When and how to use Symbols. At the end of the post are a few exercises"
+title: "Practical guide to Symbols in JavaScript with Examples and Exercises"
+subtitle: "With exercises so you actually learn it"
 author: "pilotpirxie"
 date: 2020-05-19T00:06:05.000Z
 tags: ["javascript", "tutorial", "webdev"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How I created AI-powered ORM for PostgreSQL, MySQL and SQLite"
+title: "I Built an AI ORM So You Don't Have To"
 subtitle: "And why you shouldn't use it"
 author: "pilotpirxie"
 date: 2023-10-13T10:54:19.000Z

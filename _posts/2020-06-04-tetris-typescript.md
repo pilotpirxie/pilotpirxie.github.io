@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tetris in TypeScript"
-subtitle: "Little speed coding exercise and timelapse video."
+subtitle: "Little speed coding exercise and timelapse video"
 author: "pilotpirxie"
 date: 2020-06-04T10:55:10.000Z
 tags: ["showdev", "game", "typescript", "javascript"]
