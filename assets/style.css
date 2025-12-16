@@ -327,6 +327,8 @@ footer {
   text-align: center;
   color: var(--secondary-color);
   font-size: 0.9rem;
+  position: relative;
+  overflow: visible;
 }
 
 .social-links {
@@ -343,6 +345,28 @@ footer {
 
 .social-links a:hover {
   color: var(--accent-color);
+}
+
+.footer-peek-character {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.footer-peek-character img {
+  display: block;
+  height: auto;
+  position: relative;
+  bottom: -40px;
+}
+
+@media (max-width: 768px) {
+  .footer-peek-character img {
+    width: 120px;
+    bottom: -20px;
+  }
 }
 
 /* Responsive */
