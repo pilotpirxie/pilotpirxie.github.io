@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How i actually passed the AWS Developer Exam (DVA-C01)"
+title: "Resources to pass AWS Developer Exam (DVA-C01)"
 subtitle: "4 months of prep, summary what worked"
 author: "pilotpirxie"
 date: 2019-11-13T22:54:23.000Z

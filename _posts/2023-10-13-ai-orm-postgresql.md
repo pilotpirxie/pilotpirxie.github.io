@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "I built an AI ORM so you don't have to"
+title: "Natural language to SQL directly in the ORM"
 subtitle: "And why you shouldn't use it"
 author: "pilotpirxie"
 date: 2023-10-13T10:54:19.000Z

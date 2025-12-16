@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "GameOff 2021 - Making a game in one month"
-subtitle: "A Christmas mech soldier game"
+title: "Making a christmas game in one month for game jam"
+subtitle: "A christmas mech soldier game"
 author: "pilotpirxie"
 date: 2021-12-03T22:47:25.000Z
 tags: ["unity3d", "gamedev", "devjournal", "jam", "github"]

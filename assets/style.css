@@ -349,10 +349,17 @@ footer {
 
 .footer-peek-character {
   position: absolute;
-  bottom: 0px;
-  right: 0px;
+  bottom: 0;
   pointer-events: none;
   overflow: hidden;
+}
+
+.footer-peek-character--right {
+  right: 0;
+}
+
+.footer-peek-character--left {
+  left: 0;
 }
 
 .footer-peek-character img {
@@ -360,6 +367,10 @@ footer {
   height: auto;
   position: relative;
   bottom: -40px;
+}
+
+.footer-peek-character--left img {
+  bottom: -50px;
 }
 
 @media (max-width: 768px) {

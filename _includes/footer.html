@@ -8,7 +8,13 @@
     </div>
     <p>&copy; {{ 'now' | date: "%Y" }} {{ site.author }}</p>
   </div>
-  <div class="footer-peek-character">
-    <img src="{{ '/assets/p3mcs.png' | relative_url }}" alt="Tiny character peeking" />
+  {% if page.layout == 'home' or page.url == '/' %}
+  <div class="footer-peek-character footer-peek-character--right">
+    <img src="{{ '/assets/p3mcs.png' | relative_url }}" alt="Tiny character peeking on home page" />
   </div>
+  {% elsif page.layout == 'post' %}
+  <div class="footer-peek-character footer-peek-character--left">
+    <img src="{{ '/assets/p3kso.png' | relative_url }}" alt="Tiny character peeking on post page" />
+  </div>
+  {% endif %}
 </footer>

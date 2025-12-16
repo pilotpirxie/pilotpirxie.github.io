@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Building a complete scrum toolkit"
+title: "Building a scrum toolkit for retrospectives and planning poker"
 subtitle: "React, TypeScript, WebSockets, and way too much caffeine"
 author: "pilotpirxie"
 date: 2022-01-29T15:45:53.000Z
