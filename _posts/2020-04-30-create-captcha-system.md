@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Create your own CAPTCHA system"
+title: "Building your own CAPTCHA system"
 subtitle: "Visual and computational leading zero challenge"
 author: "pilotpirxie"
 date: 2020-04-30T12:11:51.000Z

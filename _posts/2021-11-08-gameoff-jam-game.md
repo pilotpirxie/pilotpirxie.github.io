@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "GameOff 2021 - Making a Game in One Month"
+title: "GameOff 2021 - Making a game in one month"
 subtitle: "A Christmas mech soldier game"
 author: "pilotpirxie"
 date: 2021-12-03T22:47:25.000Z

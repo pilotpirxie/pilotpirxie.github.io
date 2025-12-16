@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "I Built an AI ORM So You Don't Have To"
+title: "I built an AI ORM so you don't have to"
 subtitle: "And why you shouldn't use it"
 author: "pilotpirxie"
 date: 2023-10-13T10:54:19.000Z

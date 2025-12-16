@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Guide to Data Structures Using JavaScript for Beginners"
-subtitle: "Basic data structures in JavaScript for everyone"
+title: "Data structures in JavaScript"
+subtitle: "Basic data structures in JavaScript"
 author: "pilotpirxie"
 date: 2022-12-07T10:13:53.000Z
 tags: ["javascript", "data-structures", "programming"]

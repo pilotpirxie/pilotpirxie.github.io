@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tetris in TypeScript"
+title: "Tetris in a single file of TypeScript"
 subtitle: "Little speed coding exercise and timelapse video"
 author: "pilotpirxie"
 date: 2020-06-04T10:55:10.000Z

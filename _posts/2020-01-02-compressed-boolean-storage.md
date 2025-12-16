@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Storing Booleans in a compressed way"
+title: "Storing booleans in a compressed way"
 subtitle: "Compress multiple flags into one integer"
 author: "pilotpirxie"
 date: 2020-01-02T00:34:07.000Z

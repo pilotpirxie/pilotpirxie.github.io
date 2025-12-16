@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Practical guide to Symbols in JavaScript with Examples and Exercises"
+title: "Practical guide to Symbols in JavaScript with examples and exercises"
 subtitle: "With exercises so you actually learn it"
 author: "pilotpirxie"
 date: 2020-05-19T00:06:05.000Z

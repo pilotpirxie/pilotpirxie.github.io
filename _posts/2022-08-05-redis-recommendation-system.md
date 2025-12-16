@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Building a Recommendation System using Redis"
-subtitle: "A complete journey of making a content-based recommendation engine using Redis and Node.js"
+title: "Building a recommendation system with Redis"
+subtitle: "A complete journey of making a content-based recommendation engine"
 author: "pilotpirxie"
 date: 2022-08-05T15:14:00.000Z
 tags: ["webdev", "javascript", "node", "typescript", "redis", "algorithms", "recommendation-system", "hackathon"]

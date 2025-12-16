@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Full-Text-Search - Trie Data Structures"
+title: "Full-Text-Search - trie data structures"
 subtitle: 'Full-text search data structures without the academic jargon'
 author: "pilotpirxie"
 date: 2019-08-14T00:00:00.000Z

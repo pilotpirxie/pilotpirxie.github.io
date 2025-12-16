@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Making a Slavic Strategy Game in Unity"
-subtitle: "Vistulans: mythology, code, open source code and playable link"
+title: "Making a slavic mythology strategy game in Unity"
+subtitle: "Open source code and playable link"
 author: "pilotpirxie"
 date: 2019-12-12T07:51:26.000Z
 tags: ["showdev", "gamedev", "csharp", "unity3d"]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Show Me Your Keys - OAuth 2.0 & OIDC with JWT & JWKS"
+title: "Show me your keys - OAuth 2.0 & OIDC with JWT & JWKS"
 subtitle: 'Authentication, authorization and JWT overview'
 author: "pilotpirxie"
 date: 2020-10-14T00:00:00.000Z
