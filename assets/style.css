@@ -10,16 +10,17 @@
   --secondary-color: #666;
   --accent-color: #d99d25;
   --button-color: #f5ca41;
-  --background-color: #faf0e6;
+  --background-color: #ffffff;
   --border-color: #ddd;
   --max-width: 800px;
 }
 
 body {
   font-family: 'Lora', Georgia, 'Times New Roman', serif;
-  line-height: 1.7;
+  line-height: 2;
   color: var(--primary-color);
   background-color: var(--background-color);
+  font-size: 18px;
 }
 
 /* Layout */
