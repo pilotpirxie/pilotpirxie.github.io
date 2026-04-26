@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hangout Planner"
+title: "Building the app for scheduling common time with friends"
 subtitle: "Fighting cognitive atrophy and full process of making app"
 author: "pilotpirxie"
 date: 2026-04-26T10:00:00.000Z
